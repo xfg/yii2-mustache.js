@@ -1,0 +1,22 @@
+{
+    "name": "xfg/yii2-mustache.js",
+    "description": "mustache.js for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension", "mustache.js"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "xfg",
+            "email": "timofey.web@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/mustache.js": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "xfg\\mustachejs\\": ""
+        }
+    }
+}
